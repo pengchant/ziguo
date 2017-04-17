@@ -1,0 +1,27 @@
+
+<!-- login.wxml -->
+<view class="wrapper">
+  <view class="flex-container" style="margin-top:100px;">
+    <view class="flex-item"></view>
+    <view class="flex-item">
+      <view class="flex-container">
+        <view class="flex-item">
+          <image src="../../img/logo.png" class="login_logo"></image>
+        </view>
+        <view class="flex-item" style="flex:2;line-height:40px;color:#FE0000;">
+          用户登录
+        </view>
+      </view>
+    </view>
+    <view class="flex-item"></view>
+  </view>
+
+  <view class="login_view">
+    <view class="login_fm">
+      <input class="xp_input" placeholder="请输入账号" auto-focus/>
+      <input class="xp_input" password="true" placeholder="请输入密码"/>
+      <button class="xp_primarybtn" bindtap="login">登录</button>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/login/login"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1186CB",
+    "navigationBarTitleText": "汽车维修管理系统",
+    "navigationBarTextStyle":"#fff"
+  }
+}
